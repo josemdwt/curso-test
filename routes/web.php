@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/hola', function () {
-    return "Hola Mundo";
+    return "Hola Mundo prueba";
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
